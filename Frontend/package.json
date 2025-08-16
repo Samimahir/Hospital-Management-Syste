@@ -1,0 +1,64 @@
+{
+  "name": "hospital-management-frontend",
+  "version": "2.0.0",
+  "description": "Hospital Management System Frontend - Enhanced Security & Performance",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.30.1",
+    "axios": "^1.11.0",
+    "bootstrap": "^5.3.7",
+    "react-bootstrap": "^2.10.10",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^4.12.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "date-fns": "^3.6.0",
+    "react-datepicker": "^7.4.0",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "crypto-js": "^4.2.0",
+    "web-vitals": "^4.2.4",
+    "validator": "^13.12.0",
+    "sanitize-html": "^2.13.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "audit": "npm audit",
+    "audit:fix": "npm audit fix",
+    "security:check": "npm audit --audit-level high",
+    "outdated": "npm outdated"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-console": "warn",
+      "no-debugger": "error"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not ie <= 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "config": {
+    "audit_level": "high",
+    "fund": false
+  }
+}
