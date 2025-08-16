@@ -1,5 +1,6 @@
 # Hospital-Management-System
 Hospital Management System is a comprehensive web application designed to digitize and streamline the operations of hospitals, clinics, and healthcare centers. Built with the modern MERN stack (MongoDB, Express, React, and Node.js), it offers robust features for managing patients, appointments, medical records, and pharmacy inventory.
+
 Key Features:
 
 User Authentication & Roles: Secure login system supports multiple user roles including Admin, Doctor, Patient, and Pharmacist. Role-based access control ensures users see only functionalities relevant to their permissions.
